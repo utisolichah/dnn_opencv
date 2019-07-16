@@ -3,6 +3,7 @@ import argparse
 import time
 import cv2
 
+#argparse 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help= "path to input image")
 ap.add_argument("-p", "--prototxt", required=True, help="path to Caffe 'deploy' prototxt file")
